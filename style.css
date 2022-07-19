@@ -1,0 +1,90 @@
+/* google font  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+}
+
+/* header */
+/* banner  */
+header {
+    background-color: rgb(16, 16, 16);
+    color: white;
+    margin-top: 50px;
+    border-radius: 40px;
+    padding: 20px 80px 0 80px;
+}
+
+.container {
+    width: 1240px;
+    margin-top: 150px;
+}
+
+
+/* banner content  */
+.banner {
+    display: flex;
+    /* banner content end  */
+
+}
+
+.banner-content {
+    width: 50%;
+
+}
+
+.banner-text-h {
+    font-size: 70px;
+}
+
+.banner-text-p {
+    font-size: 18px;
+    color: rgb(195, 198, 198);
+}
+
+.live-link {
+    text-decoration: none;
+    background-color: red;
+    padding: 20px 30px;
+    border-radius: 10px;
+    line-height: 100px;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+/* banner image  */
+.banner-content img {
+    width: 100%;
+}
+
+/* end header  */
+/* wesite content  */
+.page-menu {
+    background-color: black;
+    width: 400px;
+
+}
+
+.page-menu a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
+
+.menu {
+    height: 20px;
+    width: 100px;
+    margin: 40px;
+    background-color: white;
+
+}
