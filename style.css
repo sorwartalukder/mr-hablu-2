@@ -65,6 +65,7 @@ header {
 }
 
 /* end header  */
+/* end banner  */
 /* wesite content  */
 /* page menu  */
 .page-menu-b {
@@ -100,7 +101,7 @@ header {
 }
 
 /* page menu end  */
-/* news  */
+/* article */
 .website-article {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -149,6 +150,8 @@ article a {
 
 }
 
+/* end article */
+/* end website content  */
 /* footer  */
 .footer {
     background-color: rgb(15, 15, 15);
@@ -188,6 +191,8 @@ hr {
     color: rgb(166, 166, 167);
 }
 
+/* end footer content  */
+/* end footer - */
 /* media query  */
 /* mobile divise  */
 @media screen and (max-width: 576px) {
@@ -272,6 +277,8 @@ hr {
     }
 }
 
+/* end mobile divice  */
+/* tablet divice  */
 @media screen and (min-width:577px) and (max-width: 992px) {
 
     header {
@@ -356,6 +363,8 @@ hr {
     }
 }
 
+/* end tablet divice  */
+/* laptop divice  */
 @media screen and (min-width:993px) {
     .view-all {
         display: none;
