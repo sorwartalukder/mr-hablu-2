@@ -1,6 +1,13 @@
 /* google font  */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
 main {
     display: flex;
     justify-content: center;
@@ -8,12 +15,7 @@ main {
     align-items: center;
 }
 
-body {
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: white;
-}
+
 
 /* header */
 /* banner  */
@@ -28,16 +30,12 @@ header {
 .container {
     width: 1300px;
     margin-top: 150px;
+    display: flex;
 }
 
 
 /* banner content  */
-.banner {
-    display: flex;
 
-    /* banner content end  */
-
-}
 
 .banner-content {
     width: 50%;
@@ -88,7 +86,7 @@ header {
     margin: 30px;
     border-radius: 10px;
     font-size: 20px;
-    background-color: aliceblue;
+    background-color: rgb(206, 227, 245);
     color: black;
 }
 
@@ -137,8 +135,219 @@ article a {
     color: rgb(95, 93, 93);
 }
 
+/* extra part tablet  */
+.view-all {
+    margin-top: 60px;
+    display: none;
+}
+
+.view-all a {
+    text-decoration: none;
+    background-color: red;
+    padding: 20px 30px;
+    border-radius: 5px;
+    font-size: 30px;
+    color: aliceblue;
+
+}
+
+/* footer  */
 .footer {
-    height: 600px;
     background-color: rgb(15, 15, 15);
+    background-size: cover;
     color: white;
+    margin-top: 100px;
+    padding: 100px;
+    text-align: center;
+    font-size: 20px;
+}
+
+/* footer content  */
+.goal {
+    font-size: 27px;
+}
+
+hr {
+    border: 1px solid rgb(86, 86, 86);
+    margin: 50px;
+}
+
+.footer-link {
+    margin-bottom: 30px;
+}
+
+.footer-link a {
+    text-decoration: none;
+    color: rgb(143, 143, 143);
+    padding: 20px;
+}
+
+.social-media-link a {
+    background-color: rgb(94, 94, 95);
+    margin: 10px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 20px;
+    color: rgb(166, 166, 167);
+}
+
+/* media query  */
+/* mobile divise  */
+@media screen and (max-width: 576px) {
+
+
+    header {
+        margin: 30px;
+        padding: 0px;
+
+    }
+
+    .container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 0;
+
+
+
+    }
+
+    .banner-content {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .banner-content h1 {
+        font-size: 28px;
+
+    }
+
+    .banner-content p {
+        display: none;
+        ;
+    }
+
+    .banner-content a {
+        font-size: 15px;
+    }
+
+    .banner-content img {
+        width: 120%;
+    }
+
+    .page-menu-b {
+        margin: 50px 0 60px 0;
+        background-color: white;
+    }
+
+    .website-article {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .footer {
+        margin-top: 100px;
+        padding: 10px;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .goal {
+        margin-top: 100px;
+    }
+
+    .footer-link {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .social-media-link {
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (min-width:577px) and (max-width: 992px) {
+
+    header {
+        margin: 30px;
+
+
+    }
+
+    .container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 0;
+
+
+
+    }
+
+    .banner-content {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .banner-content h1 {
+        font-size: 35px;
+
+    }
+
+    .banner-content a {
+        font-size: 20px;
+    }
+
+    .banner-content img {
+        width: 120%;
+    }
+
+    .page-menu-b {
+        margin: 50px 0 60px 0;
+        background-color: white;
+        width: 100%;
+        height: 100px;
+    }
+
+    .page-menu a {
+
+        display: inline;
+    }
+
+    .menu {
+        padding: 20px 30px;
+
+    }
+
+
+
+    .website-article {
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .footer {
+        margin-top: 100px;
+        padding: 10px;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .goal {
+        margin-top: 100px;
+    }
+
+    .footer-link {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .social-media-link {
+        margin-bottom: 50px;
+    }
 }
