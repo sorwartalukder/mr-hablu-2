@@ -33,10 +33,7 @@ header {
     display: flex;
 }
 
-
 /* banner content  */
-
-
 .banner-content {
     width: 50%;
 
@@ -64,6 +61,7 @@ header {
 /* banner image  */
 .banner-content img {
     width: 100%;
+    margin-bottom: -7px;
 }
 
 /* end header  */
@@ -138,12 +136,12 @@ article a {
 /* extra part tablet  */
 .view-all {
     margin-top: 60px;
-    display: none;
+
 }
 
 .view-all a {
     text-decoration: none;
-    background-color: red;
+    background-color: rgb(246, 67, 67);
     padding: 20px 30px;
     border-radius: 5px;
     font-size: 30px;
@@ -245,6 +243,12 @@ hr {
         grid-template-columns: repeat(1, 1fr);
 
     }
+
+    .view-all {
+        display: none;
+
+    }
+
 
     .footer {
         margin-top: 100px;
@@ -349,5 +353,11 @@ hr {
 
     .social-media-link {
         margin-bottom: 50px;
+    }
+}
+
+@media screen and (min-width:993px) {
+    .view-all {
+        display: none;
     }
 }
