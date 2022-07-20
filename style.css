@@ -227,7 +227,7 @@ hr {
 
     }
 
-    .banner-content p {
+    .banner-text-p {
         display: none;
         ;
     }
@@ -314,6 +314,10 @@ hr {
         font-size: 20px;
     }
 
+    .ellepsis-content {
+        display: none;
+    }
+
     .banner-content img {
         width: 120%;
     }
@@ -369,6 +373,10 @@ hr {
 /* laptop divice  */
 @media screen and (min-width:993px) {
     .view-all {
+        display: none;
+    }
+
+    .ellepsis-content {
         display: none;
     }
 }
